@@ -28,11 +28,8 @@ class TestTriangles(unittest.TestCase):
 
     def testScaleneTriangleA(self):
         self.assertEqual(classifyTriangle(10,15,20),'Scalene','10,15,20 is a Scalene triangle')
-
-    def testIsocelesTriangleA(self):
-        self.assertEqual(classifyTriangle(10.5,10.5,20),'Isoceles','10.5,10.5,30 is an Isoceles triangle')
     
-    def testIsocelesTriangleB(self):
+    def testIsocelesTriangleA(self):
         self.assertEqual(classifyTriangle(11,11,20),'Isoceles','11,11,30 is an Isoceles triangle')
 
     # invalid input
@@ -47,6 +44,9 @@ class TestTriangles(unittest.TestCase):
     
     def testInvalidInputD(self):
         self.assertEqual(classifyTriangle([20],4,4),'NotATriangle','[20],4,4 is NotATriangle')
+
+    def testInvalidInputE(self):
+        self.assertEqual(classifyTriangle(10.5,10.5,20),'NotATriangle','10.5,10.5,30 is NotATriangle')
     
     # sides do not equal a triangle
     def testNonviableSideA(self):
