@@ -1,2 +1,2 @@
 # wiessler_triangle
-[![build status of master](https://travis-ci.org/SWiessler/wiessler_triangle.svg?branch=master)](https://travis-ci.org/SWiessler/wiessler_triangle)
+[![Build Status](https://app.travis-ci.com/SWiessler/wiessler_triangle.svg?branch=main)](https://app.travis-ci.com/SWiessler/wiessler_triangle)
